@@ -1,0 +1,183 @@
+.menu {
+   position: relative;
+   height: 554px;
+}
+
+.top_bg {
+    z-index: 1;
+    position: relative;
+}
+.top_bg li {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background: url("../img/topbg.jpg") repeat-x;
+}
+.imgBox1, .imgBox2, .imgBox3, .imgBox4, .imgBox5, .imgBox6 {
+	height: 494px;
+	width: 100%;
+}
+.phone {
+	position: relative;
+    z-index: 2;
+    top: 107px;
+   
+}
+.phone img.phoneImg {
+    width: 167px;
+    height: 340px;
+    margin-left: 784px;
+  
+}
+.sosobox {
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    right: 22px;
+
+}
+.sosobox  .btn_download {
+    background: url(../img/btn_downloadnew.png) no-repeat 0 0;
+    float: left;
+    width: 220px;
+    height: 70px;
+
+}
+.xiazai {
+    position: absolute;
+    bottom: -12px;
+    right: -90px;
+    width: 90px;
+    height: 121px;
+   
+}
+
+.xiazai p {
+    color: white;
+    width: 90px;
+    padding-bottom: 15px;
+    text-align: center;
+
+}
+.xiazai img {
+    width: 90px;
+    height: 90px;
+}
+
+.btnbox {
+    width: 100%;
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    z-index: 3;
+
+
+}
+.btn_1 {
+    height: 54px;
+}
+.btn_1 li {
+    float: left;
+    width: 80px;
+    height: 46px;
+    background: white;
+    border: 1px solid #984c0e;
+    margin-right: 4px;
+    cursor: pointer;
+    position: relative;
+}
+.btn_1 li .mask {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    height: 46px;
+    background-color: #000;
+    opacity: 0.8;
+}
+.btn_1 li.current .mask {
+      opacity: 0;
+}
+.btn_1 li.current .border {
+    border: 2px solid #ffd308;
+    width: 80px;
+    height: 46px;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+}
+.items {
+    padding-top: 60px;
+}
+.items, .items dl, .mobile, .recommand {
+    overflow: hidden;
+}
+.items dl {
+    width: 250px;
+    float: left;
+}
+.items dd img {
+    width: 250px;
+    height: 434px;
+}
+.footer {  
+    margin-top: -196px;
+    height: 196px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background: #282828;
+}
+.recommand {
+    background: url(../img/recommand.png) -301px 0 no-repeat;
+}
+.recommand .num1 {
+    margin-left: 160px;
+}
+.recommand dl {
+    padding: 43px 0 37px;
+    height: 60px;
+    width: 164px;
+    float: left;
+}
+.recommand dl a {
+    color: #fbf6eb;
+}
+.recommand dt {
+    background: url(../img/recommand.png) no-repeat;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-right: 10px;
+}
+.recommand .num1 dt {
+    
+    background-position: 0px 0px;
+}
+.recommand .num2 dt {
+    background-position: -60px 0px;
+
+}
+.recommand .num3 dt {
+    background-position: -120px 0px;
+}
+.recommand .num4 dt {
+    background-position: -180px 0;
+}
+.recommand dd.rec_name {
+    font-size: 16px;
+    line-height: 32px;
+}
+.recommand dd {
+    line-height: 20px;
+    font-size: 14px;
+}
+.btn_1 li.current .border {
+    border: 2px solid #ffd308;
+    width: 80px;
+    height: 46px;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+}

@@ -1,0 +1,465 @@
+@charset "utf-8";
+body,
+html {
+    /* height: 100% */
+}
+
+a,
+body,
+dd,
+div,
+dl,
+dt,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+img,
+li,
+ol,
+p,
+span,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0
+}
+
+.menu,
+body {
+    position: relative
+}
+
+.nav li,
+li {
+    list-style: none
+}
+
+.items,
+.items dl,
+.mobile,
+.recommand {
+    overflow: hidden
+}
+
+body,
+dd,
+div,
+dl,
+dt,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+img,
+li,
+ol,
+p,
+span,
+ul {
+    outline: 0;
+    text-align: left
+}
+
+.copyright,
+.copyright_download,
+.menu,
+.nav,
+.nav li {
+    text-align: center
+}
+
+body {
+    line-height: 1em;
+    font-family: "Microsoft YaHei", Tahoma, Geneva, sans-serif;
+    font-size: 1em;
+    min-height: 750px;
+    background: #FBF6EB
+}
+
+.imgbox1,
+.imgbox2,
+.imgbox3 {
+    height: 494px;
+}
+
+.menu {
+    height: 554px;
+}
+
+a {
+    color: #333;
+    text-decoration: none
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.cf:after {
+    content: '';
+    display: block;
+    clear: both
+}
+
+.top_bg {
+    /* height: 494px; */
+    position: relative;
+}
+
+.top_bg li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: url("http://mat1.gtimg.com/news/FERD_proj/kuaibao160606/topbg.jpg") repeat-x;
+}
+
+.top_bg {
+    z-index: 1
+}
+
+.top_bg li {
+    display: none
+}
+
+.imgbox1 {
+    width: 100%;
+    background: url(http://mat1.gtimg.com/www/images/newsapp/kuaibaoIndex/fb_01.png) center center no-repeat
+}
+
+.imgbox2 {
+    width: 100%;
+    background: url(http://mat1.gtimg.com/www/images/newsapp/kuaibaoIndex/lh_01.png) center center no-repeat
+}
+
+.imgbox3 {
+    width: 100%;
+    background: url(http://mat1.gtimg.com/www/images/newsapp/kuaibaoIndex/tp_01.png) center center no-repeat
+}
+
+.layout,
+.nav {
+    margin: 0 auto;
+    width: 1000px;
+    position: relative
+}
+
+
+/* .nav {
+    background: url(http://mat1.gtimg.com/www/topicmenu/kuaibao/images/header.png) no-repeat;
+    height: 62px;
+    z-index: 2
+} */
+
+.nav li {
+    color: #fff;
+    display: inline-block;
+    background-color: #bf2a0c;
+    border-radius: 16px;
+    font-size: 21px;
+    padding: 0 16px;
+    height: 33px;
+    line-height: 33px;
+    margin-right: 26px;
+    zoom: 1;
+    margin-top: 14px
+}
+
+.items dl.num4,
+.nav li:last-child {
+    margin-right: 0
+}
+
+.nav li a {
+    color: #fff;
+    cursor: pointer
+}
+
+.nav li.cur {
+    background-color: #282828
+}
+
+.btn_download {
+    background: url(http://mat1.gtimg.com/news/FERD_proj/kuaibao160606/btn_download.png) no-repeat;
+    float: left;
+    width: 220px;
+    height: 70px;
+}
+
+.btn_download:hover {
+    /* //background-position: -294px 0 */
+}
+
+.main {
+    height: 592px;
+    position: relative;
+    width: 100%;
+    background: url(http://mat1.gtimg.com/www/images/newsapp/kuaibaoIndex/pic_top1.png) no-repeat
+}
+
+.main img {
+    position: absolute;
+    width: 93px;
+    height: 93px;
+    left: 744px;
+    bottom: 145px
+}
+
+.main_down {
+    width: 100%;
+    height: 489px;
+    position: relative;
+    font-size: 18px;
+    background: url(http://mat1.gtimg.com/news/kuaibao/image/banner_down_v1.png) no-repeat
+}
+
+.items {
+    padding-top: 60px;
+}
+
+.items dl {
+    width: 250px;
+    float: left
+}
+
+.items dt {
+    /* background: url(http://mat1.gtimg.com/news/kuaibao/image/items.png) no-repeat; */
+    height: 70px;
+    /* padding-left: 50px */
+    text-align: center;
+}
+
+.items .num1 dt {
+    background-position: 0 0
+}
+
+.items .num2 dt {
+    background-position: 0 -70px
+}
+
+.items .num3 dt {
+    background-position: 0 -140px
+}
+
+.items .num4 dt {
+    background-position: 0 -210px
+}
+
+.items dt div,
+.items dt p {
+    color: #666666;
+    font-size: 20.52px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.items dt div.subtitle {
+    color: #e94220;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.items dd img {
+    width: 250px;
+    height: 434px;
+    /* margin-top: 14px */
+}
+
+.footer,
+.footer_down {
+    width: 100%;
+    background: #282828;
+    margin-top: 74px;
+    text-align: center
+}
+
+.recommand {
+    background: url(http://mat1.gtimg.com/www/images/newsapp/kuaibaoIndex/recommand.png) -301px 0 no-repeat
+}
+
+.recommand dl {
+    padding: 43px 0 37px;
+    height: 60px;
+    width: 164px;
+    float: left
+}
+
+.recommand dl a {
+    color: #fbf6eb
+}
+
+.recommand dt {
+    background: url(http://mat1.gtimg.com/www/images/newsapp/kuaibaoIndex/recommand.png) no-repeat;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-right: 10px
+}
+
+.recommand .num1 {
+    margin-left: 160px
+}
+
+.recommand .num1 dt {
+    background-position: 0 0
+}
+
+.recommand .num2 dt {
+    background-position: -60px 0
+}
+
+.recommand .num3 dt {
+    background-position: -120px 0
+}
+
+.recommand .num4 dt {
+    background-position: -180px 0
+}
+
+.recommand .num5 dt {
+    background-position: 1111px 1111px
+}
+
+.recommand dd {
+    line-height: 20px;
+    font-size: 14px
+}
+
+.recommand dd.rec_name {
+    font-size: 16px;
+    line-height: 32px
+}
+
+.copyright {
+    background-color: #1b1b1b;
+    color: #fff;
+    font-size: 12px;
+    padding: 14px 0 12px;
+    line-height: 30px
+}
+
+.mobile {
+    background: #fbf6eb;
+    padding-bottom: 36px
+}
+
+.main_down .num1 dt,
+.main_down .num3 dt {
+    background: url(http://mat1.gtimg.com/news/kuaibao/image/down_btns.png);
+    width: 270px;
+    height: 80px
+}
+
+.main_down .num1 dt:hover {
+    background-position: 0 0
+}
+
+.main_down .num1 dt {
+    background-position: -270px 0
+}
+
+.main_down .num3 dt {
+    background-position: 0 -80px
+}
+
+.main_down .num3 dt:hover {
+    background-position: -270px -80px
+}
+
+.main_down .num1,
+.main_down .num3 {
+    position: absolute;
+    top: 228px
+}
+
+.main_down .num1 {
+    left: 24px
+}
+
+.main_down .num3 {
+    left: 705px
+}
+
+.main_down .num2 img {
+    position: absolute;
+    width: 93px;
+    height: 93px;
+    left: 454px;
+    top: 184px
+}
+
+.m_browser a,
+.main_down .num1 span {
+    color: #e94220
+}
+
+.main_down .num3 span {
+    color: #6eb31c
+}
+
+.main_down dd {
+    width: 264px;
+    line-height: 26px;
+    word-wrap: break-word;
+    word-break: break-all;
+    margin-left: 8px;
+    margin-top: 14px
+}
+
+.main_down .num2 dd {
+    width: 234px;
+    position: absolute;
+    top: 296px;
+    left: 374px
+}
+
+.footer_down {
+    background-color: #fbf6eb;
+    margin-top: 34px
+}
+
+.mobile i {
+    background: url(http://mat1.gtimg.com/news/kuaibao/image/down_btns.png) 0 -161px;
+    width: 92px;
+    height: 92px;
+    float: left;
+    margin-left: 260px
+}
+
+.m_browser {
+    color: #d0ba8b;
+    font-size: 24px;
+    float: left;
+    margin-left: 16px;
+    line-height: 2em
+}
+
+.intro {
+    color: #282828;
+    font-size: 12px;
+    font-family: "\u5b8b\u4f53", SimSun;
+    line-height: 2em
+}
+
+.copyright_download {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%
+}
+/*  |xGv00|a6b187bafb63d92869b21006d48f1708 */

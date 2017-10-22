@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>腾讯快报</title>
+	<link rel="stylesheet" type="text/css" href="./css/base.css"/>
+	<link rel="stylesheet" type="text/css" href="./css/kuaibao.css" />
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<div id="main">
+			<div class="menu">
+				<div class="bc">
+					<div class="layout cf">
+						<img class="logo" src="img/kbpclogo.png" />
+						<ul class="cf">
+							<li class="current leftB rightB">
+								<a href="kuaibao.html">首页</a>
+							</li>
+							<li class="rightB">
+								<a href="kuaibaoxiazai.html">下载</a>
+							</li>
+						</ul>
+						<img class="txt" src="img/kbpctxtnew.png"/>
+					</div>
+				</div>
+				<div  class="top_bg">
+					<ul>
+						<li class="disb" style="display: none;">
+							<div class="imgBox1" style="background:url(img/abimg.jpg) center center no-repeat;" ></div>
+						</li>
+						<li style="display: none;">
+							<div class="imgBox2" style="background:url(img/fbbimg.jpg) center center no-repeat;"></div>
+						</li>
+						<li style="display: none;">
+							<div class="imgBox3" style="background:url(img/xzqimg.jpg) center center no-repeat;"></div>
+						</li>
+						<li style="display: none;">
+							<div class="imgBox4" style="background:url(img/snh48img.jpg) center center no-repeat;"></div>
+						</li>
+						<li style="display: none;">
+							<div class="imgBox5" style="background:url(img/tfboysimg.jpg) center center no-repeat;"></div>
+						</li>
+						<li style="display: none;">
+							<div class="imgBox6" style="background: url(img/wyfimgnew.jpg) center center no-repeat;"></div>
+						</li>
+					</ul>
+				</div>
+				<div class="phone layout ">
+					<img class="phoneImg" src="img/phone.png" alt="" />
+					<div class="sosobox ">
+						<a class="btn_download" href=""></a>
+					</div>
+					<div class="xiazai cf">
+						<p>扫码下载</p>
+						<img src="img/kbewm.jpg" width="90" height="90" alt="" />
+					</div>
+				</div>
+				<div class="btnbox">
+					<div class="layout">
+						<ul class="btn_1 cf">
+							<li class="current"><img src="img/angelbabynew.jpg" alt=""/><span class="mask"></span><span class="border"></span></li>
+							<li class="current"><img src="img/fbbnew.jpg" alt="" /><span class="mask"></span><span class="border"></span></li>
+							<li class="current"><img src="img/xzqnew.jpg" alt="" /><span class="mask"></span><span class="border"></span></li>
+							<li class="current"><img src="img/snh48new.jpg" alt="" /><span class="mask"></span><span class="border"></span></li>
+							<li class="current"><img src="img/tfboysnew.jpg" alt="" /><span class="mask"></span><span class="border"></span></li>
+							<li class="current"><img src="img/wyfnew.jpg" alt="" /><span class="mask"></span><span class="border"></span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="layout">
+				<div class="items">
+					<dl class="num1">
+						<dd><img src="img/kuaibaonew.png"></dd>
+					</dl>
+					<dl class="num2">
+						<dd><img src="img/videonew.png"></dd>
+					</dl>
+					<dl class="num3">
+						<dd><img src="img/zhibonew.png"></dd>
+					</dl>
+					<dl class="num4">
+						<dd><img src="img/zhuantinew.png"></dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div class="footer">
+		<div class="recommand layout">
+			<dl class="num1">
+				<a href="">
+					<dt></dt>
+					<dd class="rec_name">腾讯新闻</dd>
+					<dd>News</dd>
+				</a>
+			</dl>
+			<dl class="num2">
+				<a href="">
+					<dt></dt>
+					<dd class="rec_name">腾讯视频</dd>
+					<dd>QQLIVE</dd>
+				</a>
+			</dl>
+			<dl class="num3">
+				<a href="">
+					<dt></dt>
+					<dd class="rec_name">自选股</dd>
+					<dd>PORTFOLTO</dd>
+				</a>
+			</dl>
+			<dl class="num4">
+				<a href="">
+					<dt></dt>
+					<dd class="rec_name">腾讯体育</dd>
+					<dd>SPORTS</dd>
+				</a>
+			</dl>
+			<dl>
+				<a href="">
+					<dt><img src="img/GCT_14.png" alt="" /></dt>
+					<dd class="rec_name">购车通</dd>
+					<dd>CARS</dd>
+				</a>
+			</dl>
+		</div>
+		<div class="copyright">
+			<div class="layout dw">
+				Copyright @ 1998 -
+				<span id="newYear">2017</span>
+				Tencent. All Right Reserved
+			</div>
+		</div>
+	</div>
+	<script>
+            var index = 0;
+            var timer = 0;
+            $('.btn_1 li').bind("mouseover", function() {
+                clearInterval(timer);
+                index = $('.btn_1 li').index($(this));
+                $(this).addClass('current').siblings().removeClass('current')
+                    // $('.top_bg li').eq(index).addClass('disb').siblings().removeClass('disb');  
+                    //              淡入淡出
+                $('.top_bg li').eq(index).fadeIn(100).siblings().fadeOut(300);
+
+            }).bind("mouseleave", function() {
+                clearInterval(timer);
+                mun = index;
+                timer = setInterval(imgChange, 2000);
+            })
+            var mun = 0;
+            var lens = $('.top_bg li').length;
+            timer = setInterval(imgChange, 2000);
+            function imgChange() {
+                $('.btn_1 li').eq(mun).addClass('current').siblings().removeClass('current');
+                $('.top_bg li').eq(mun).fadeIn(200).siblings().fadeOut(500);
+                mun++;
+                if (mun == lens) {
+                    mun = 0;
+                }
+            }
+            function getNewYear(){
+                return (new Date()).getFullYear();
+            }
+
+            $('#newYear').html(getNewYear())
+
+
+
+
+    </script>
+</body>
+</html>

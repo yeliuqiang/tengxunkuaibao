@@ -1,0 +1,120 @@
+a, body, dd, div, dl, dt, h1, h2, h3, h4, h5, h6, html, img, li, ol, p, span, ul {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    background: 0 0;
+    vertical-align: baseline;
+    outline: 0;
+    text-align: left;
+
+}
+body { 
+    position: relative;
+    line-height: 1em;
+    font-family: "Microsoft YaHei", Tahoma, Geneva, sans-serif;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+ul li {
+   list-style: none;
+}
+
+.copyright, .copyright_download, .menu,{
+    text-align: center;
+}
+.wrap {
+    min-height: 100%;
+    
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 216px;
+    background-color: #f6f6f6;
+
+}
+
+.bc {
+    width: 100%;
+    height: 56px;
+    background: #f6f6f6;
+    border-bottom: 4px solid #e94220;
+}
+
+.layout  {
+    margin: 0 auto;
+    width: 1000px;
+    position: relative;
+}
+.bc img.logo {
+    float: left;
+    margin: 10px 33px 0 0;
+    width: 64px;
+    height: 36px;
+    display: block;
+}
+.bc ul {
+    padding: 20px 0 0 0;
+    height: 36px;
+    position: relative;
+    float: left;
+}
+
+.bc li.rightB {
+    border-right: 1px solid #e4e4e4;
+}
+.bc li.leftB {
+    border-left: 1px solid #e4e4e4;
+}
+.bc li {
+    float: left;
+    width: 128px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+}
+.bc li.current a {
+    color: #e94220;
+
+}
+
+.cf:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.bc li a {
+    color: #333;
+    font-size: 20px !important;
+    text-decoration: none;
+    font-family: "Microsoft YaHei", Tahoma, Geneva;
+}
+.bc img.txt {
+    float: right;
+    margin: 25px 0 0 0;
+    width: 226px;
+    height: 20px;
+    display: block;
+}
+
+.copyright {
+    background-color: #1b1b1b;
+    color: #fff;
+    font-size: 12px;
+    padding: 14px 0 12px;
+    line-height: 30px;
+}
+
+
+.dw {
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    text-align: center;
+}

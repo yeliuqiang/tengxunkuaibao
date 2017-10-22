@@ -1,0 +1,132 @@
+body {
+    background: #f6f6f6 url(../img/xiazaikuaibao/downloadbg.jpg) no-repeat center 55px ;
+    min-height: 750px;
+   text-align: center;
+}
+
+
+.main_down {
+   padding-top: 0px;
+    width: 100%;
+    height: 489px;
+    position: relative;
+    font-size: 18px;
+    background: url(../img/xiazaikuaibao/downbg.png) no-repeat;
+}
+
+.bc li.current a {
+    color: #e94220;
+}
+.main_down .num1 {
+    left: 24px;
+}
+.main_down .num2 img {
+    position: absolute;
+    width: 93px;
+    height: 93px;
+    left: 454px;
+    top: 184px;
+}
+.main_down .num2 dd{
+    width: 234px;
+    position: absolute;
+    top: 296px;
+    left: 374px;
+}
+
+.main_down .num1{
+    position: absolute;
+    top:228px;
+}
+.main_down .num1 dt {
+    background: url(../img/xiazaikuaibao/iphonedownload.png) no-repeat;
+    width: 270px;
+    height: 80px;
+}
+.main_down .num1 dt {
+    background-position: 0 0;
+}
+.main_down .num3 {
+    left: 705px;
+    position: absolute;
+    top: 228px;
+}
+
+.main_down .num3 span {
+    color: #6eb31c;
+}
+.main_down .num3 dt {
+    background-position: 0 0;
+}
+.main_down .num3 dt {
+    background: url(../img/xiazaikuaibao/androiddownload.png) no-repeat;
+    width: 270px;
+    height: 80px;
+}
+
+.main_down dd {
+    width: 264px;
+    line-height: 26px;
+    word-wrap: break-word;
+    word-break: break-all;
+    margin-left: 8px;
+    margin-top: 14px;
+}
+
+.footer_down {
+    background-color: #f6f6f6;
+    margin-top: 32px;
+    width: 100%;
+    text-align: center;
+
+}
+.mobile {
+    overflow: hidden;
+    padding-bottom: 36px;
+}
+.mobile {
+    background: #f6f6f6;
+}
+.mobile i {
+    background: url(../img/xiazaikuaibao/down_btns.png) no-repeat;
+    width: 92px;
+    height: 92px;
+    float: left;
+    margin-left: 300px;
+    background-position: 0 -161px;
+}
+.m_browser {
+    color: #d0ba8b;
+    font-size: 24px;
+    float: left;
+    margin-left: 16px;
+   line-height: 2em;
+}
+.m_browser div{
+    display: block;
+}
+.m_browser a {
+    color: #e94220;
+}
+.intro {
+    color: #282828;
+    font-size: 12px;
+    font-family: "\u5b8b\u4f53",SimSun;
+    line-height: 2em;
+
+}
+.copyright {
+ background-color: #1b1b1b; 
+    color: #fff;
+    font-size: 12px;
+    padding: 14px 0 12px 0;
+    line-height: 30px;
+    text-align: center;
+}
+.copyright_download {
+    position: absolute;
+   bottom: 0px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
